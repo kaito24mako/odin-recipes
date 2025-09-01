@@ -14,6 +14,7 @@ body {
 
 h3, span {
     font-style: italic;
+    font-weight: bold;
 }
 
 .foods {
@@ -25,8 +26,13 @@ h3, span {
     text-align: center;
     width: 250px;
     height: auto;
-    margin: 0 auto 0 70px;
+    margin: 0 auto 0 215px;
     border: 3px solid black;
     padding: 10px;
+}
+
+.fried-rice-img, .noodle-img, .salad-img {
+    margin-top: 10px;
+    display: block;
 }
 
