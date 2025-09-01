@@ -17,17 +17,13 @@ h3, span {
     font-weight: bold;
 }
 
-.foods {
-
-}
-
 .fried-rice, .noodle, .salad {
     display: inline-block;
     text-align: center;
     width: 250px;
     height: auto;
-    margin: 0 auto 0 215px;
-    border: 3px solid black;
+    margin: 30px auto 0 215px;
+    
     padding: 10px;
 }
 
@@ -36,3 +32,14 @@ h3, span {
     display: block;
 }
 
+.end {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 60px;
+}
+
+.end .credits {
+    font-size: 15px;
+    font-style: normal;
+}
