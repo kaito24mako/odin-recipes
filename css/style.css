@@ -8,6 +8,22 @@ body {
     border: 3px solid black;
 }
 
+h3 {
+    font-style: italic;
+}
+
 .foods {
-    
+
+}
+
+.fried-rice {
+    border: 3px solid black;
+}
+
+.noodle {
+border: 3px solid black;
+}
+
+.salad {
+border: 3px solid black;
 }
