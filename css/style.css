@@ -22,8 +22,8 @@ h3, span {
     width: 250px;
     height: auto;
     margin: 30px auto 0 215px;
-    
     padding: 10px;
+    border: 5px solid black;
 }
 .fried-rice-img, .noodle-img, .salad-img {
     margin-top: 10px;
@@ -39,11 +39,28 @@ h3, span {
     font-size: 15px;
     font-style: normal;
 }
+.fried-rice:hover {
+    border: 5px solid black;
+    cursor: pointer;
+}
+.noodle:hover {
+    border: 5px solid black;
+    cursor: pointer;
+}
+.salad:hover {
+    border: 5px solid black;
+    cursor: pointer;
+}
 
 /*recipe html's*/
 
 .fried-rice-page, .noodle-page, .salad-page {
     margin-left: 100px;
     margin-right: 500px;
+}
+li::first-letter {
+  color: darkblue;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
