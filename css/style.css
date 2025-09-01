@@ -1,22 +1,21 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
-
 body {
     background-color: rgb(153, 208, 226);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*index.html*/
+
 .title {
     text-align: center;
     border: 3px solid black;
 }
-
 h3, span {
     font-style: italic;
     font-weight: bold;
 }
-
 .fried-rice, .noodle, .salad {
     display: inline-block;
     text-align: center;
@@ -26,20 +25,25 @@ h3, span {
     
     padding: 10px;
 }
-
 .fried-rice-img, .noodle-img, .salad-img {
     margin-top: 10px;
     display: block;
 }
-
 .end {
     font-size: 25px;
     font-style: italic;
     text-align: center;
     margin: 60px;
 }
-
 .end .credits {
     font-size: 15px;
     font-style: normal;
 }
+
+/*recipe html's*/
+
+.fried-rice-page, .noodle-page, .salad-page {
+    margin-left: 100px;
+    margin-right: 500px;
+}
+
